@@ -11,9 +11,30 @@
     <h3>Canvas</h3>
     <P>draw what you would like</P>
     <canvas id="pic" width="400" height="400"></canvas>
-    <button id="erase" onclick="earser()">Erase</button>
+    <div>
+    <button id="erase">Erase</button>
     <button id="submit">submit</button>
-    
+    <button id="undo">Undo</button>
+
+    <button id="redo">Redo</button>
+
+    </div>
+
+    <div class="slider">
+        <input type="range" min="5" max="15" value="5"
+         class="slider" id="myRange">
+
+         <p>Pen size: <span id="demo"></span></p>
+
+         <input type="color" id="Picker" value="#000000">
+
+    </div>    
+
+
+
+
+
+
 
     <script src="Script.js"></script>
 </body>
